@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ .navbar{
+   height: 100px;
+   width: 100%;
+   background-color: black;
+   padding: 10px;
+   display: flex;
+   margin-left: 10px;
+ 
+  
+}
+.logo{
+   height: 100%;
+   width: 165px;
+   background-color: black;
+   color: aliceblue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+.address{
+   height:100% ;
+   width: 252px;
+   background-color: black;
+   color: white;
+   display: flex;
+   
+  
+}
+.search{
+   height:100% ;
+   width: 460px;
+   background-color:black;
+   color: aliceblue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   outline: none;
+   border: none;
+}
+.language{
+   height:100% ;
+   width: 88px;
+   background-color: black;
+   color: azure;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 14px;
+
+ 
+}
+.account{
+   height:100% ;
+   width: 120px;
+   background-color:black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 12px;
+   flex-direction: column;
+
+}
+.order{
+   height:100% ;
+   width: 100px;
+   background-color: black;
+   color: white;
+   font-size: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cart{
+   height:100% ;
+   width: 75px;
+   background-color: black;
+   color: white;
+  
+   font-size: 14px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.logo img{
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.navicon{
+   width: 25%;
+   height: 100%;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+}
+.navicon img{
+   width: 50%;
+   height:100%;
+   display: flex;
+   align-items: center;
+   background-color: black;
+   justify-content: right;
+   color: black;
+   
+  }
+
+.city{
+   height: 100%;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   font-size: 14px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+}
+.All{
+height: 62%;
+width: 45px;
+border-radius: 10px 0px 0px 10px;
+background-color: white;
+color:rgb(151, 136, 136);
+
+
+
+}
+.search input{
+   height: 62%;
+   width: 396px;
+   background-color:white;
+   color: azure;
+   padding-left: 10px;
+   outline: none;
+   border: none;
+
+  
+}
+.searchline{
+   height: 62%;
+   width: 30px;
+   background-color: black;
+   color: aliceblue;
+   background-color: #ff9900;
+   border-radius: 0px 5px 5px 0px;
+   
+}
+.language img{
+   height: 21%;
+   width: 20px;
+   background-color: black;
+   color: azure;   
+}
+.nav{
+   height: 35px;
+   width: 100%;
+   background-color:black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 10px;
+}
+.all{
+   height: 100%;
+   width: 1000px;
+   background-color:black;
+   color:white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.Mxplayer{
+   height: 100%;
+   width: 1000px;
+   font-size: 10px;
+   background-color:black;
+   color: white;
+   flex-direction: column;
+   
+  
+}
+.sell{
+   height: 100%;
+   width: 1111px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.BestSellers{
+   height: 100%;
+   width: 1111px;
+   background-color:black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.Mobiles{
+   height: 100%;
+   width: 1111px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+   
+
+.prime{
+   height: 100%;
+   width:  1111px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.CustomerService{
+   height: 100%;
+   width: 1111px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.Electronics{
+   height: 100%;
+   width: 1110px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.amazonpay{
+   height: 100%;
+   width: 1100px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.fashion{
+   height: 100%;
+   width: 1111px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.computers{
+   height: 100%;
+   width: 1111px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.i{
+   width: 30%;
+   height:100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .maincontainer{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+ }
+ .images{
+    width: 5000px;
+    height: 100vh;
+    background-color: white;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+ }
+ .productdescription{
+    width: 400px;
+    height:250vh;
+    background-color: white;
+    display: flex;
+    margin-top: 27px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    
+   
+ }
+.suggestproduct{
+   width: 100%;
+   height: 200px;
+   background-color: black;
+}
+.smallimage{
+   height:80%;
+   width:20%;
+   background-color: white;
+   display: flex;
+   gap: 20px;
+   flex-direction: column;
+}
+.mainimage{
+   height:100%;
+   width:100%;
+  background-color:white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+}
+.descriptionbox{
+   height:500px ;
+   width:100%;
+   background-color:white;
+   
+}
+.price{
+   height:850px;
+   width: 44%;
+   background-color: white;
+   border-radius: 20px;
+   border: 0.1px solid black;
+   display: flex;
+   margin-top: 25px;
+   margin-left:8px ;
+   
+   
+   
+   
+   
+}
+.minibox{
+   height: 60px;
+   width: 59px;
+   background-color: white;
+   border-radius: 1px;
+   border: 1px solid black;
+   
+}
+.minibox img{
+   height:60px ;
+   width: 59px;
+}
+.mainimage img{
+   height: 80%;
+   width: 85%;
+}
+.productheading{
+   font-size: 29px;
+}
+.brandname{
+font-size: 15px;
+color: blue;
+}
+.mrp{
+   font-size: 25px;
+}
+.rat{
+   color: pink;
+   font-size: 15px;
+}
+.mrv{
+   font-size: 14px;
+}
+.tax{
+   font-size:17px ;
+}
+.emi{
+   font-size: 15px;
+   color: blue;
+}
+.offer{
+   width:100%;
+   height:30px ;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   gap:10px;
+   font-size: 12px;
+}
+.o{
+height:101px;
+width: 100%;
+background-color: white;
+
+display: flex;
+gap: 10px;
+
+
+}
+.off{
+   width: 180px;
+   height:101px ;
+   background-color: white;
+   
+   border-radius: 5px;
+   border: 1px solid black;
+   display: flex;
+}
+.parent{
+   width: 100%;
+   height:125px ;
+   background-color: white;
+   display: flex;
+   margin-top: 10px;
+   overflow: scroll;
+   overflow: hidden;
+   
+
+   
+}
+:-webkit-scrollbar{
+   display: none;
+}
+
+
+.specific{
+   height:100%;
+   width:fit-content;
+   background-color: white;
+   display: flex;
+   gap: 10px;
+
+}
+.spec{
+height: 40%;
+width: 25%;
+background-color: white;
+
+}
+.spec img{
+   height: 100%;
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.table{
+   width: 100%;
+   height: 160px;
+   background-color: white;
+   color: black;
+   font-size: 18px;
+   margin-top: 10px;
+}
+.star{
+   color: gold;
+   
+
+
+}
+.about{
+   height: 400px;
+   width: 100%;
+   background-color: white;
+}
+.para{
+   margin-left: 30px;
+   font-size: 18px;
+}
+
+.sh{
+   margin-left: 20px;
+   color: blue;
+}
+.ab{
+   margin-left: 15px;
+}
+.symbol{
+   margin-left: 10px;
+}
+.symbol img{
+   height: 25px;
+   width: 20px;
+
+}
+.ratingcount{
+   color: blue;
+}
+.pag{
+   color: blue;
+}
+.sty{
+   font-size: 15px;
+}
+.exchan{
+   margin-top: 3px;
+   
+   
+height: 850px;
+width: 100%;
+
+border-radius: 20px;
+
+
+
+
+}
+.u{
+   color: brown;
+   margin-left:10px ;
+}
+.witho{
+   height: 300px;
+   width: 100%;
+   font-size: 15px;  
+   margin-left: 5px;
+  
+   
+}
+.rs{
+   color:brown;
+   margin-left: 5px;
+   
+}
+.fr{
+    font-size: 15px;
+margin-left: 5px;
+
+   
+}
+.as{
+   font-size: 15px;
+   margin-left: 5px;
+   
+}
+.hrs{
+   font-size: 15px;
+   margin-left: 5px;
+   
+}
+.min{
+   font-size: 15px;
+   margin-left: 2px;
+
+}
+.detail{
+   font-size:15px ;
+   color: blue;
+   margin-left:10px ;
+}
+.pune{
+   margin-left: 5px;
+   color: blue;
+   margin-left: 5px;
+}
+.stock{
+   font-size: 20px;
+   color: green;
+   margin-left: 10px;
+}
+.py{
+   font-size: 15px;
+   margin-left:10px ;
+}
+.tra{
+   color: blue;
+   margin-left:10px ;
+}
+.daw{
+   color: blue;
+   margin-left:10px ;
+}
+.ad{
+font-size:18px ;
+margin-left:10px ;
+}
+.no{
+   color: brown;
+   margin-left:10px ;
+}
+.wa{
+   color: brown;
+   margin-left:10px ;
+}
+.input{
+   font-size:18px ;
+   margin-left:10px ;
+}
+.quantity{
+   height: 25px;
+   width: 190px;
+   border-radius: 2px;
+   background-color: aliceblue;
+   border: 1px solid black;
+   
+   margin-left: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+}
+.car{
+   height: 35px;
+   width: 225px;
+   background-color: yellow;
+   margin-left:42px ;
+   border-radius: 20px;
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.buy{
+   height: 35px;
+   width: 225px;
+   background-color: orange;
+   margin-left:42px ;
+   border-radius: 20px;
+   border: 1px solid ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.gift{
+   margin-left:35px ;
+   font-size: 19px;
+}
+.sai{
+   background-color: gainsboro;
+}
+.g{
+   background-color: gainsboro;
+   height: 75px;
+   width: 100%;
+}
+.erase{
+   color: black;
+}
+.ca{
+   color: white;
+}

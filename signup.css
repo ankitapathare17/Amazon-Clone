@@ -1,0 +1,147 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbox{
+    height: 97vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    border: 3px;
+    
+
+}
+.smb{
+    height: 478px;
+    width: 33%;
+    background-color: white;
+    
+
+    
+}
+
+
+.mainbox img{
+    height: 50px;
+    width: 50%;
+}
+.logo{
+    height: 50px;
+    width: 97%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin{
+    height:390px ;
+    width: 410px;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 24px;
+    border-radius: 1px;
+    border: 1px solid gray;
+}
+.buy{
+    height: 57px;
+    width: 462px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px ;
+    padding-right:22px;
+}
+.logo img{
+    height: 70%;
+    width:32% ;
+}
+.s{
+    font-size: 30px;
+}
+.email{
+    width: 100%;
+    height:45px ;
+    background-color: white;
+    border-radius: 8px;
+    border: 3px solid rgb(62, 62, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.continue{
+    width: 98%;
+    height:39px ;
+    background-color: orange;
+    border-radius:14px ;
+    border:1px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b{
+    color: blue;
+}
+.l{
+    color: blue;
+}
+.f{
+    font-size: 17px;
+}
+.need{
+    font-size: 17px;
+    color: blue;
+}
+.w{
+    font-size:18px ;
+    color: black;
+}
+.am{
+    font-size: 18px;
+    color:blue ;
+}
+.your{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.line3{
+    width: 90vw;
+    color:rgb(177, 176, 176)
+}
+.use{
+width: 400px;
+height: 7px;
+background-color: white;
+display: flex;
+gap: 10px;
+align-items: center;
+}
+.bx{
+    width: 39%;
+    height: 35%;
+    background-color: white;
+    gap: 10px;
+}
+.l5{
+    width: 30vw;
+    color: gainsboro;
+}
+

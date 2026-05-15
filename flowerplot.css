@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+  
+   
+}
+.logo{
+    height: 100%;
+    width: 165px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.address{
+    height:100% ;
+    width: 252px;
+    background-color: black;
+    color: white;
+    display: flex;
+    
+   
+}
+.search{
+    height:100% ;
+    width: 460px;
+    background-color:black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+}
+.language{
+    height:100% ;
+    width: 88px;
+    background-color: black;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+
+  
+}
+.account{
+    height:100% ;
+    width: 120px;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    flex-direction: column;
+
+}
+.order{
+    height:100% ;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    height:100% ;
+    width: 80px;
+    background-color: black;
+    color: white;
+   
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 165px;
+    height: 90%;
+    background-color: black;
+    
+}
+.navicon{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.navicon img{
+    width: 50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: right;
+    color: black;
+    
+   }
+
+.city{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.All{
+ height: 45%;
+ width: 40px;
+ border-radius: 10px 0px 0px 10px;
+ background-color: white;
+color:rgb(151, 136, 136);
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.search input{
+    height: 45%;
+    width: 396px;
+    background-color:white;
+    color: azure;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+
+   
+}
+.searchline{
+    height: 45%;
+    width: 30px;
+    background-color: black;
+    color: aliceblue;
+    background-color: #ff9900;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+.language img{
+    height: 21%;
+    width: 20px;
+    background-color: black;
+    color: azure;   
+}
+.nav{
+    height: 35px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all{
+    height: 100%;
+    width: 1000px;
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Mxplayer{
+    height: 100%;
+    width: 1000px;
+    font-size: 10px;
+    background-color:black;
+    color: white;
+    flex-direction: column;
+    
+   
+}
+.sell{
+    height: 100%;
+    width: 1111px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BestSellers{
+    height: 100%;
+    width: 1111px;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Mobiles{
+    height: 100%;
+    width: 1111px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    
+
+.prime{
+    height: 100%;
+    width:  1111px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CustomerService{
+    height: 100%;
+    width: 1111px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Electronics{
+    height: 100%;
+    width: 1110px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amazonpay{
+    height: 100%;
+    width: 1100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fashion{
+    height: 100%;
+    width: 1111px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.computers{
+    height: 100%;
+    width: 1111px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.maincontainer{
+    height:350vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.images{
+    height:920px ;
+    width: 38%;
+    background-color: white;
+    
+    margin-top:10px;
+    position: sticky;
+    top: 0;
+    
+
+}
+.mainimage{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    
+    
+    
+}
+.smallimage{
+    height:25% ;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+.productdescription{
+    height:350vh;
+    width: 62%;
+    background-color: white;
+    display: flex;
+
+    margin-top: 20px;
+}
+.description{
+    height: 100%;
+    width: 55%;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.price{
+    height:800px;
+    width: 42%;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-top: 2px;
+
+}
+.mainimage img{
+    height: 90%;
+    width: 100%;
+    margin-top:27px ;
+    margin-left: 2px;
+    
+    
+}
+.mini{
+    height: 55%;
+    width: 100%;
+    background-color: white;
+    gap: 20px;
+    
+    
+}
+.mini img{
+    height: 100%;
+    width: 100%;
+    
+}
+.productheading{
+    font size: 40px;
+}
+.brandname{
+    color: blue;
+    font-size: 20px;
+}
+.star{
+    color: gold;
+}
+.ratingcount{
+    color: blue;
+}
+.minus{
+    color: brown;
+}
+.rs{
+    font-size: 22px;
+}
+.inclu{
+    font-size: 20px;
+}
+.emi{
+    font-size:20px ;
+} 
+.op{
+    color: blue;
+}
+.bigbox{
+    height: 145px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 1px;
+    overflow: scroll;
+    overflow: hidden;
+    
+    
+    
+    
+}
+:-webkit-scrollbar{
+    display: none;
+ }
+.z{
+    height: 100%;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    
+    border-radius: 0.1px;
+    border:0.1px solid black ;
+    
+
+}
+
+
+.o{
+    height: 100%;
+    width: 150px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    
+
+
+}
+.sm{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 2px;
+    overflow: scroll;
+   
+}
+:-webkit-scrollbar{
+    display: none;
+ }
+.back{
+    height: 100%;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.bo{
+    height:100% ;
+    width: 90px;
+    background-color: white;
+
+
+}
+.offer{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+.of{
+    margin-left: 10px;
+}
+.of img{
+    height: 75%;
+    width: 25px;
+}
+.bo img{
+    height: 52%;
+    width: 39%;
+    margin-left: 2px;
+}
+.tabu{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+}
+.tabu{
+    font-size: 17px;
+}
+.about{
+    height: 920px;
+    width: 100%;
+    background-color: white;
+    margin-left: 5px;
+}
+.about li{
+   margin-left: 13px;
+   line-height: 1.2;
+}
+
+.exchan{
+    margin-top: 3px;
+    
+    
+ height: 850px;
+ width: 100%;
+ 
+ border-radius: 10px;
+ }
+ .u{
+    color: brown;
+    margin-left:10px ;
+ }
+ .witho{
+    height: 300px;
+    width: 100%;
+    font-size: 15px;  
+    margin-left: 5px;
+   
+    
+ }
+ .rs{
+    color:brown;
+    margin-left: 5px;
+    
+ }
+ .fr{
+     font-size: 15px;
+ margin-left: 5px;
+ 
+    
+ }
+ .as{
+    font-size: 15px;
+    margin-left: 5px;
+    
+ }
+ .hrs{
+    font-size: 15px;
+    margin-left: 5px;
+    
+ }
+ .min{
+    font-size: 15px;
+    margin-left: 2px;
+ 
+ }
+ .detail{
+    font-size:15px ;
+    color: blue;
+    margin-left:10px ;
+ }
+ .pune{
+    margin-left: 5px;
+    color: blue;
+    margin-left: 5px;
+ }
+ .stock{
+    font-size: 20px;
+    color: green;
+    margin-left: 10px;
+ }
+ .py{
+    font-size: 15px;
+    margin-left:10px ;
+ }
+ .tra{
+    color: blue;
+    margin-left:10px ;
+ }
+ .daw{
+    color: blue;
+    margin-left:10px ;
+ }
+ .ad{
+ font-size:18px ;
+ margin-left:10px ;
+ }
+ .input{
+    font-size:18px ;
+    margin-left:10px ;
+ }
+ .quantity{
+    height: 25px;
+    width: 190px;
+    border-radius: 2px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+ }
+ .car{
+    height: 35px;
+    width: 225px;
+    background-color: yellow;
+    margin-left:42px ;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .buy{
+    height: 35px;
+    width: 225px;
+    background-color: orange;
+    margin-left:42px ;
+    border-radius: 20px;
+    border: 1px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .gift{
+    margin-left:35px ;
+    font-size: 19px;
+ }
+ .or{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    
+ }
+ .of{
+    font-size: 27px;
+ }
+ .two{
+    color: black;
+ }
+ .erase{
+    color: black;
+ }
+.sel{
+    color: white;
+}
+ 
+ 
+   
+
+
+

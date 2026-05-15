@@ -1,0 +1,105 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }  
+
+
+
+
+
+.main{
+    height: 320px;
+    width: 97%;
+    background-color: #d3d3d3;
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+   
+}
+.image{
+    height: 90%;
+    width: 31%;
+    background-color: white;
+    margin-left: 10px;
+
+}
+.empty{
+    height:90% ;
+    width: 65%;
+    background-color: white;
+    
+
+    
+
+}
+.parag{
+    height: 100vh;
+    width: 87%;
+    background-color: #d3d3d3;
+}
+.image img{
+    width: 300px;
+    height:75% ;
+    margin-left: 24px;
+    margin-top: 60px;
+}
+.c{
+    margin-top: 90px;
+    margin-left: 13px;
+    font-size: 28px;
+}
+.today{
+    color: blue;
+    margin-left: 13px;
+}
+.sign{
+    width: 193px;
+    height: 35px;
+    background-color: #ffd700;
+    border-radius: 15px;
+    border: 1px solid #ffd700;
+    margin-left: 15px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.o{
+    width: 128px;
+    height:35px ;
+    background-color:white;
+    border-radius: 25px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+.g{
+    margin-left: 27px;
+    margin-right: 85px;
+    font-size: 16px;
+    
+}
+.do{
+    margin-left:27px ;
+    margin-right:22px ;
+    font-size: 16px;
+}
+.sp{
+height: 78px;
+width: 92%;
+background-color: white;
+margin-left:30px ;
+
+}
+.f{
+    height: 80px;
+    width: 60%;
+    background-color: white;
+    display: flex;
+}
